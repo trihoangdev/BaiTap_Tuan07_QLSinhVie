@@ -58,6 +58,8 @@
             this.monHocTableAdapter = new BaiTap_Tuan07_QLSinhVien.BT_Tuan7_QuanLySinhVienDataSetTableAdapters.MonHocTableAdapter();
             this.bTTuan7QuanLySinhVienDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.monHocBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.comboKhoa = new System.Windows.Forms.ComboBox();
+            this.comboTenMH = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bT_Tuan7_QuanLySinhVienDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.monHocBindingSource)).BeginInit();
@@ -217,7 +219,7 @@
             // 
             // btnThemMoi
             // 
-            this.btnThemMoi.Location = new System.Drawing.Point(46, 623);
+            this.btnThemMoi.Location = new System.Drawing.Point(44, 627);
             this.btnThemMoi.Name = "btnThemMoi";
             this.btnThemMoi.Size = new System.Drawing.Size(113, 34);
             this.btnThemMoi.TabIndex = 16;
@@ -228,7 +230,7 @@
             // btnSua
             // 
             this.btnSua.Enabled = false;
-            this.btnSua.Location = new System.Drawing.Point(270, 623);
+            this.btnSua.Location = new System.Drawing.Point(268, 627);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(83, 34);
             this.btnSua.TabIndex = 17;
@@ -239,7 +241,7 @@
             // btnXoa
             // 
             this.btnXoa.Enabled = false;
-            this.btnXoa.Location = new System.Drawing.Point(367, 623);
+            this.btnXoa.Location = new System.Drawing.Point(365, 627);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(83, 34);
             this.btnXoa.TabIndex = 18;
@@ -250,7 +252,7 @@
             // btnLuu
             // 
             this.btnLuu.Enabled = false;
-            this.btnLuu.Location = new System.Drawing.Point(173, 623);
+            this.btnLuu.Location = new System.Drawing.Point(171, 627);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(83, 34);
             this.btnLuu.TabIndex = 19;
@@ -260,7 +262,7 @@
             // 
             // btnXemDSSV
             // 
-            this.btnXemDSSV.Location = new System.Drawing.Point(464, 623);
+            this.btnXemDSSV.Location = new System.Drawing.Point(462, 627);
             this.btnXemDSSV.Name = "btnXemDSSV";
             this.btnXemDSSV.Size = new System.Drawing.Size(126, 34);
             this.btnXemDSSV.TabIndex = 20;
@@ -270,7 +272,7 @@
             // 
             // btnXemDSSVTheoKhoa
             // 
-            this.btnXemDSSVTheoKhoa.Location = new System.Drawing.Point(604, 623);
+            this.btnXemDSSVTheoKhoa.Location = new System.Drawing.Point(602, 627);
             this.btnXemDSSVTheoKhoa.Name = "btnXemDSSVTheoKhoa";
             this.btnXemDSSVTheoKhoa.Size = new System.Drawing.Size(195, 34);
             this.btnXemDSSVTheoKhoa.TabIndex = 21;
@@ -280,7 +282,7 @@
             // 
             // btnXemDiem
             // 
-            this.btnXemDiem.Location = new System.Drawing.Point(813, 623);
+            this.btnXemDiem.Location = new System.Drawing.Point(811, 627);
             this.btnXemDiem.Name = "btnXemDiem";
             this.btnXemDiem.Size = new System.Drawing.Size(133, 34);
             this.btnXemDiem.TabIndex = 22;
@@ -290,7 +292,7 @@
             // 
             // btnXemDiemTheoMon
             // 
-            this.btnXemDiemTheoMon.Location = new System.Drawing.Point(960, 623);
+            this.btnXemDiemTheoMon.Location = new System.Drawing.Point(958, 627);
             this.btnXemDiemTheoMon.Name = "btnXemDiemTheoMon";
             this.btnXemDiemTheoMon.Size = new System.Drawing.Size(168, 34);
             this.btnXemDiemTheoMon.TabIndex = 23;
@@ -322,11 +324,31 @@
             this.monHocBindingSource1.DataMember = "MonHoc";
             this.monHocBindingSource1.DataSource = this.bTTuan7QuanLySinhVienDataSetBindingSource;
             // 
+            // comboKhoa
+            // 
+            this.comboKhoa.FormattingEnabled = true;
+            this.comboKhoa.Location = new System.Drawing.Point(602, 685);
+            this.comboKhoa.Name = "comboKhoa";
+            this.comboKhoa.Size = new System.Drawing.Size(195, 28);
+            this.comboKhoa.TabIndex = 24;
+            this.comboKhoa.Click += new System.EventHandler(this.comboKhoa_Click);
+            // 
+            // comboTenMH
+            // 
+            this.comboTenMH.FormattingEnabled = true;
+            this.comboTenMH.Location = new System.Drawing.Point(958, 685);
+            this.comboTenMH.Name = "comboTenMH";
+            this.comboTenMH.Size = new System.Drawing.Size(168, 28);
+            this.comboTenMH.TabIndex = 25;
+            this.comboTenMH.Click += new System.EventHandler(this.comboTenMH_Click);
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1160, 692);
+            this.ClientSize = new System.Drawing.Size(1160, 743);
+            this.Controls.Add(this.comboTenMH);
+            this.Controls.Add(this.comboKhoa);
             this.Controls.Add(this.btnXemDiemTheoMon);
             this.Controls.Add(this.btnXemDiem);
             this.Controls.Add(this.btnXemDSSVTheoKhoa);
@@ -398,5 +420,7 @@
         private BT_Tuan7_QuanLySinhVienDataSetTableAdapters.MonHocTableAdapter monHocTableAdapter;
         private System.Windows.Forms.BindingSource bTTuan7QuanLySinhVienDataSetBindingSource;
         private System.Windows.Forms.BindingSource monHocBindingSource1;
+        private System.Windows.Forms.ComboBox comboKhoa;
+        private System.Windows.Forms.ComboBox comboTenMH;
     }
 }

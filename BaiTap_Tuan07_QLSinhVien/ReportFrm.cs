@@ -1,12 +1,6 @@
 ﻿using Microsoft.Reporting.WinForms;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace BaiTap_Tuan07_QLSinhVien
@@ -14,10 +8,17 @@ namespace BaiTap_Tuan07_QLSinhVien
     public partial class ReportFrm : Form
     {
         private string _option;
+        private string _value;
         public ReportFrm(string option)
         {
             InitializeComponent();
             _option = option;
+        }
+        public ReportFrm(string option, string value)
+        {
+            InitializeComponent();
+            _option = option;
+            _value = value;
         }
 
         private void ReportFrm_Load(object sender, EventArgs e)
@@ -47,28 +48,13 @@ namespace BaiTap_Tuan07_QLSinhVien
                 try
                 {
                     reportViewer.LocalReport.ReportEmbeddedResource = "BaiTap_Tuan07_QLSinhVien.ReportSVTheoKhoa.rdlc";
-                    string query1 = @"SELECT
-                                         sv.MaSo,
-                                         sv.HoTen,
-                                         FORMAT(sv.NgaySinh, 'dd/MM/yyyy') AS NgaySinh,
-                                         CASE WHEN sv.GioiTinh = 1 THEN N'Nam' ELSE N'Nữ' END AS Gioitinh,
-                                         sv.DiaChi,
-                                         sv.DienThoai,
-                                         k.TenKhoa
-                                     FROM
-                                         SinhVien sv
-                                     INNER JOIN
-                                         Khoa k ON sv.MaKhoa = k.MaKhoa
-                                     ORDER BY
-                                         k.TenKhoa;";
-                    string query2 = @"SELECT
-                                     k.TenKhoa
-                                 FROM
-                                     SinhVien sv
-                                 INNER JOIN
-                                     Khoa k ON sv.MaKhoa = k.MaKhoa
-                                 ORDER BY
-                                     k.TenKhoa;"; ;
+                    string query1 = $"SELECT sv.MaSo, sv.HoTen, " +
+                        $"FORMAT(sv.NgaySinh, 'dd/MM/yyyy') AS NgaySinh, " +
+                        $"CASE WHEN sv.GioiTinh = 1 THEN N'Nam' ELSE N'Nữ' END AS Gioitinh," +
+                        $"sv.DiaChi,sv.DienThoai,k.TenKhoa FROM SinhVien sv " +
+                        $"INNER JOIN Khoa k ON sv.MaKhoa = k.MaKhoa " +
+                        $"WHERE k.TenKhoa = N'{_value}';";
+                    string query2 = $"SELECT k.TenKhoa FROM SinhVien sv INNER JOIN Khoa k ON sv.MaKhoa = k.MaKhoa WHERE k.TenKhoa = N'{_value}';";
                     var reportDataSource1 = new ReportDataSource()
                     {
                         Name = "DataSetSV",
@@ -112,10 +98,10 @@ namespace BaiTap_Tuan07_QLSinhVien
                     reportViewer.LocalReport.ReportEmbeddedResource = "BaiTap_Tuan07_QLSinhVien.ReportDiemTheoMon.rdlc";
                     string query1 = @"select m.MaMH , m.TenMH 
                                      from ketqua k join MonHoc m on k.mamh = m.MaMH
-                                     order by m.TenMH";
+                                     where m.tenMH = N'" + _value + "'";
                     string query2 = @"select k.Diem 
                              from ketqua k join MonHoc m on k.mamh = m.MaMH
-                             order by m.TenMH"; ;
+                             where m.tenMH = N'" + _value + "'";
                     var reportDataSource1 = new ReportDataSource()
                     {
                         Name = "DataSetMH",

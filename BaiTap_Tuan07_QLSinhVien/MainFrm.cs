@@ -195,8 +195,15 @@ namespace BaiTap_Tuan07_QLSinhVien
             dt.Clear();
             dt = DataProvider.LoadCSDL(queyLoadSV);
             dtgv.DataSource = dt;*/
-            ReportFrm reportFrm = new ReportFrm("DSSVTheoKhoa");
-            reportFrm.ShowDialog();
+            if(comboKhoa.SelectedIndex == -1)
+            {
+                MessageBox.Show("Vui lòng chọn mã khoa");
+            }
+            else
+            {
+                ReportFrm reportFrm = new ReportFrm("DSSVTheoKhoa",comboKhoa.Text);
+                reportFrm.ShowDialog();
+            }
         }
 
         private void btnXemDiem_Click(object sender, EventArgs e)
@@ -218,8 +225,41 @@ namespace BaiTap_Tuan07_QLSinhVien
             dt.Clear();
             dt = DataProvider.LoadCSDL(queryLoadDiem);
             dtgv.DataSource = dt;*/
-            ReportFrm reportFrm = new ReportFrm("XemDiemTheoMon");
-            reportFrm.ShowDialog();
+            if(comboTenMH.SelectedIndex == -1)
+            {
+                MessageBox.Show("Vui lòng chọn tên môn học");
+            }    
+            else
+            {
+                ReportFrm reportFrm = new ReportFrm("XemDiemTheoMon", comboTenMH.Text);
+                reportFrm.ShowDialog();
+            }    
+        }
+
+        private void comboKhoa_Click(object sender, EventArgs e)
+        {
+            LoadComboKhoa();
+        }
+
+        private void LoadComboKhoa()
+        {
+            string sqlLoadComboKhoa = @"select * from Khoa";
+            comboKhoa.DataSource = DataProvider.LoadCSDL(sqlLoadComboKhoa);
+            comboKhoa.DisplayMember = "TenKhoa";//Hiển thị tên lên combo
+            comboKhoa.ValueMember = "TenKhoa";//Giá trị thực chất của combo
+        }
+
+        private void comboTenMH_Click(object sender, EventArgs e)
+        {
+            LoadComboTenMH();
+        }
+
+        private void LoadComboTenMH()
+        {
+            string sqlLoadComboKhoa = @"select * from MonHoc";
+            comboTenMH.DataSource = DataProvider.LoadCSDL(sqlLoadComboKhoa);
+            comboTenMH.DisplayMember = "TenMH";//Hiển thị tên lên combo
+            comboTenMH.ValueMember = "TenMH";//Giá trị thực chất của combo
         }
     }
 }

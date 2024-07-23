@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|d:\\bvu\\dotnet\\baitap_tuan07_qlsinhvien\\baitap_tuan07_qlsinhvien\\dangnhapfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\dangnhapfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\dangnhapfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\dangnhapfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\reportfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\reportfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\reportfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|d:\\bvu\\dotnet\\baitap_tuan07_qlsinhvien\\baitap_tuan07_qlsinhvien\\reportfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\reportfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\reportdiemtheomon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\reportdiemtheomon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\baitap_tuan07_qlsinhvien\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79A1040-8013-4BE2-B2C3-A265B4B13E59}|BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien.csproj|solutionrelative:baitap_tuan07_qlsinhvien\\mainfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReportFrm.cs",
-              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
-              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
-              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
-              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAowH0AAAApAAAA",
+              "DocumentIndex": 0,
+              "Title": "MainFrm.cs",
+              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
+              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
+              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
+              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAQwOoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T02:48:54.943Z",
-              "IsPinned": true
+              "WhenOpened": "2024-07-23T02:29:36.184Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -70,73 +55,33 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangNhapFrm.cs",
-              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs",
-              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs",
-              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs",
-              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAWwCUAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "ReportFrm.cs",
+              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
+              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
+              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
+              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAhwGcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:07:26.437Z",
+              "WhenOpened": "2024-07-23T02:32:19.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DangNhapFrm.cs [Design]",
-              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs",
-              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs",
-              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs [Design]",
-              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\DangNhapFrm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:07:18.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainFrm.cs",
-              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
-              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
-              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
-              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAhwN0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:03:35.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainFrm.cs [Design]",
               "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
               "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\MainFrm.cs",
               "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\MainFrm.cs [Design]",
               "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\MainFrm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T04:03:32.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReportDiemTheoMon.rdlc [Design]",
-              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportDiemTheoMon.rdlc",
-              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\ReportDiemTheoMon.rdlc",
-              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportDiemTheoMon.rdlc [Design]",
-              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\ReportDiemTheoMon.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-07-20T03:53:06.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportFrm.cs [Design]",
-              "DocumentMoniker": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
-              "RelativeDocumentMoniker": "BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs",
-              "ToolTip": "D:\\BVU\\DotNet\\BaiTap_Tuan07_QLSinhVien\\BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs [Design]",
-              "RelativeToolTip": "BaiTap_Tuan07_QLSinhVien\\ReportFrm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T02:45:42.709Z"
+              "WhenOpened": "2024-07-23T02:28:30.436Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
